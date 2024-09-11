@@ -78,7 +78,6 @@ After deleting one pod, there will still be 4 pods.
 kubectl delete pod <pod-name>
 kubectl get pods
 ```
-![Pods After Deletion](./path-to-your-screenshot-6.png)
 
 #### 7. Why are there still 4 PODs, even after you deleted one?
 ReplicaSets ensure that the desired number of replicas is maintained. When one pod is deleted, the ReplicaSet controller creates a new one to match the desired state of 4 replicas.
