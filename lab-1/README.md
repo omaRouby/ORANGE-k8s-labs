@@ -1,4 +1,3 @@
-Here's the paragraph formatted for a GitHub README file, with placeholders for the screenshot links:
 
 ---
 
@@ -37,7 +36,7 @@ Here's the paragraph formatted for a GitHub README file, with placeholders for t
 9. **Why do you think the container `agentx` in pod webapp is in error?**  
    The logs from `kubectl describe pod webapp` should reveal an error message related to the `agentx` image. The `agentx` image might not exist in the Docker registry.
 
-> **Note**: You used `kubectl delete all --all` to remove all pods, services, and other Kubernetes resources in the default namespace. Be cautious with this command as it can delete unintended resources. Consider using `kubectl get pods` to monitor the status of your pods after creating them.  
+> **Note**: I used `kubectl delete all --all` to remove all pods, services, and other Kubernetes resources in the default namespace. Be cautious with this command as it can delete unintended resources. Consider using `kubectl get pods` to monitor the status of your pods after creating them.  
 > ![Kubernetes Resources Screenshot](https://github.com/omaRouby/ORANGE-k8s-labs/blob/main/lab-1/images/Screenshot%202024-09-11%20030225.png)
 
 ---
