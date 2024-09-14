@@ -195,4 +195,5 @@ spec:
       port: 443       # HTTPS
       targetPort: 8443
 ```
+his service exposes two ports, HTTP (80) and HTTPS (443), mapping them to different ports in the multi-port-app. Verify that both ports are accessible within the cluster.
 
